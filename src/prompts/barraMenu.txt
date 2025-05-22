@@ -1,0 +1,13 @@
+✍️ Escribe la opción que deseas:
+
+1️⃣ Bienvenidos 👋
+🔹 Conoce quiénes somos y qué podemos hacer por ti.
+
+2️⃣ Asesoría Gratuita 💬
+🔹 Resolvemos tus dudas sin compromiso sobre:
+🌐 páginas web, 🤖 bots de WhatsApp, 📊 automatizaciones, 🧠 inteligencia artificial...
+
+3️⃣ Atención al Cliente 📞
+🔹 Agenda una llamada directa con uno de nuestros expertos.
+
+💡 Puedes escribir solo el número (por ejemplo: "1", "2" o "3") o el nombre de la opción.
