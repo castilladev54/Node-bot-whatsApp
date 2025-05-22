@@ -12,7 +12,7 @@ Este es un bot de WhatsApp inteligente que responde dudas y cierra ventas para *
 ## Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/castilla-dev-bot.git
+git clone https://github.com/castilladev54/Node-bot-whatsApp.git
 cd castilla-dev-bot
 npm install
 ```
