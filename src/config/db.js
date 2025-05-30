@@ -1,3 +1,4 @@
+require('dotenv').config(); // 👈 Asegúrate de que esto esté al principio
 const mongoose = require("mongoose"); // Importar mongoose para la conexión a MongoDB
 
 const connectDB = async () => {
