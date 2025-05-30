@@ -4,6 +4,10 @@ const qrcode = require("qrcode-terminal");
 // Configuración del cliente de WhatsApp
 const client = new Client({
   authStrategy: new LocalAuth(),
+    puppeteer: {
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  },
 });
 
 // Generación del código QR para la autenticación
