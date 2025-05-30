@@ -9,7 +9,7 @@ const path = require("path");
 function loadAllPrompts(subPathArray) {
   const folderPath = path.join(__dirname, "..", ...subPathArray);
 
-  if (!fs.existsSync(folderPath)) {
+  if (!fs.existsSync(folderPath)) { // Verifica si la carpeta existe
     throw new Error(`La carpeta no existe: ${folderPath}`);
   }
 

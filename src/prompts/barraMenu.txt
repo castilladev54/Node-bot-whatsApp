@@ -1,13 +1,9 @@
 ✍️ Escribe la opción que deseas:
 
-1️⃣ Bienvenidos 👋
-🔹 Conoce quiénes somos y qué podemos hacer por ti.
+1️⃣ ¿Quiénes somos? 👋
+🔹 Conoce más sobre Asistavet Venezuela y cómo cuidamos a tus mascotas.
 
-2️⃣ Asesoría Gratuita 💬
-🔹 Resolvemos tus dudas sin compromiso sobre:
-🌐 páginas web, 🤖 bots de WhatsApp, 📊 automatizaciones, 🧠 inteligencia artificial...
+2️⃣ Agendar Cita Médica 📅
+🔹 Te ayudamos paso a paso para programar la atención de tu mascota:
 
-3️⃣ Atención al Cliente 📞
-🔹 Agenda una llamada directa con uno de nuestros expertos.
-
-💡 Puedes escribir solo el número (por ejemplo: "1", "2" o "3") o el nombre de la opción.
+💡 Puedes escribir solo el número (por ejemplo: "1", "2" ) o el nombre de la opción.

@@ -1,18 +1,23 @@
-🔍 ¿Qué tipo de solución estás buscando?
-- Página web
-- App móvil
-- Marketing
-- Chatbot para WhatsApp
-- Automatización con Excel
-- Inteligencia Artificial
+📋 Formulario de cita médica - Asistavet Venezuela
 
-- Otra
+ Ubicación:
+📍 ¿Dónde te encuentras?
+Escribe: Caracas o Ocumare del Tuy
 
-🎯 ¿Cuál es tu objetivo principal con esta solución?
-📁 ¿Tienes algo como punto de partida?
-🚀 ¿Cómo prefieres avanzar?
-📩 Comparte tu nombre y contacto.
+Tipo de mascota:
+🐾 ¿Tienes un perro, un gato o ambos?
+Responde: Perro, Gato o Ambos
 
-💡 Proyectos desde $50 USD hasta soluciones empresariales.
-📲 Responde *"Llamada ahora"* si quieres que te contactemos de inmediato.
+Motivo de la cita:
+🩺 ¿Qué necesita tu mascota?
+Elige una opción:
+▪ Consulta médica
+▪ Cirugía programada
+▪ Vacunación
+▪ Emergencia veterinaria
+
+Contacto:
+📲 ¿Deseas que te llamemos ahora mismo?
+Responde con: "Llamada ahora"
+O escribe tu número de contacto para agendar la cita.
            

@@ -4,6 +4,8 @@ const esMensajeReciente = require("../utils/mensajesReciente.js");
 const Usuario = require("../models/user.js");
 const prompts = require("../utils/loadPrompts.js");
 const commandHandlers = require("./commandHandlers.js");
+//const {createEvent, isDateAvailable, getNextAvailableSlot} =require("../services/calendarScript.js")
+//const {text2iso, iso2text}= require("../utils/dateTime.js");
 
 async function handleMessage(message) {
   try {
@@ -18,7 +20,7 @@ async function handleMessage(message) {
       return;
     }
     
-    // Verifica si el mensaje es relevante
+    //Verifica si el mensaje es relevante
     if (!esMensajeRelevante(messageText)) {
       console.warn("⚠️ Mensaje vacío o irrelevante recibido.");
       return;
@@ -27,7 +29,7 @@ async function handleMessage(message) {
     // Saludo: responde y termina
     if (esSaludo(messageText)) {
       return await message.reply(
-        "👋 ¡Hola! Soy el asistente de *Castilla Dev*.\nEscribe la palabra *'ayuda'* para ver el menú."
+        "👋 ¡Hola! Soy *Asistavet Venezuela*.\nEscribe *'ayuda'* para ver el menú de opciones. 🐶🐱"
       );
     }
 
@@ -48,8 +50,11 @@ async function handleMessage(message) {
 
     // Llama a la IA solo si no fue saludo ni comando
     const aiResponse = await askAndRespond(messageText);
+    
     return await message.reply(aiResponse);
 
+    
+  
   } catch (error) {
     console.error("❌ Error en handleMessage:", error);
     await message.reply(

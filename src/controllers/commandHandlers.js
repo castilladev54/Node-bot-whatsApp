@@ -16,11 +16,11 @@ module.exports = {
   ayuda: async (message) => await message.reply(fs.barraMenu),
   "1": async (message) =>
     await message.reply(
-      "👋 ¡Bienvenido a Castilla Dev! 🚀. Si deseas una consulta gratuita y sin compromiso, simplemente responde con el número 2️⃣"
+      "👋 ¡Hola! Bienvenido a Asistavet Venezuela 🐾\nEstamos aquí para ayudarte con lo que tu mascota necesite.\n\n✅ ¿Deseas agendar cita ?\nResponde con el número: 2️⃣"
     ),
   bienvenidos: async (message) =>
     await message.reply(
-      "👋 ¡Bienvenido a Castilla Dev! 🚀. Si deseas una consulta gratuita y sin compromiso, simplemente responde con el número 2️⃣"
+      "👋 ¡Hola! Bienvenido a Asistavet Venezuela 🐾\nEstamos aquí para ayudarte con lo que tu mascota necesite.\n\n✅ ¿Deseas agendar cita ?\nResponde con el número: 2️⃣"
     ),
   "2": async (message) => await message.reply(fs.formulario),
   "3": responderLlamada,
