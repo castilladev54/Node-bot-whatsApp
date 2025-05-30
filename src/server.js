@@ -1,5 +1,4 @@
 require("dotenv").config();
-console.log("✅ ENV cargado:", process.env.MONGO_URI); // esto debe imprimir la cadena URI
 const connectDB = require("./config/db.js");
 
 const startServer = async () => {
