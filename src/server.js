@@ -1,11 +1,11 @@
 const express = require("express");
 require("dotenv").config();
 const connectDB = require("./config/db.js");
-const botRoutes = require("./routes/bot.js");
+
 
 const app = express();
 app.use(express.json());
-app.use("/api", botRoutes);
+
 
 // Middleware de manejo de errores
 app.use((err, req, res, next) => {

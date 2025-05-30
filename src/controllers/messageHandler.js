@@ -4,8 +4,7 @@ const esMensajeReciente = require("../utils/mensajesReciente.js");
 const Usuario = require("../models/user.js");
 const prompts = require("../utils/loadPrompts.js");
 const commandHandlers = require("./commandHandlers.js");
-//const {createEvent, isDateAvailable, getNextAvailableSlot} =require("../services/calendarScript.js")
-//const {text2iso, iso2text}= require("../utils/dateTime.js");
+
 
 async function handleMessage(message) {
   try {
