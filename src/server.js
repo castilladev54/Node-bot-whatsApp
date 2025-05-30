@@ -1,17 +1,6 @@
-const express = require("express");
 require("dotenv").config();
+console.log("✅ ENV cargado:", process.env.MONGO_URI); // esto debe imprimir la cadena URI
 const connectDB = require("./config/db.js");
-
-
-const app = express();
-app.use(express.json());
-
-
-// Middleware de manejo de errores
-app.use((err, req, res, next) => {
-  console.error("❌ Error:", err.message);
-  res.status(500).json({ error: "Error interno del servidor" });
-});
 
 const startServer = async () => {
   try {
@@ -30,10 +19,6 @@ const startServer = async () => {
       }
     });
 
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => {
-      console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
-    });
   } catch (error) {
     console.error("❌ Error conectando a MongoDB:", error.message);
     process.exit(1);
